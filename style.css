@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Inter:wght@200&family=Montserrat:wght@200;800&family=Open+Sans&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Inter:wght@200&family=Montserrat:wght@200;400;800&family=Open+Sans&family=Poppins&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Inter:wght@200&family=Montserrat:wght@200;400;800&family=Open+Sans&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #748182;
+}
+
+/* start home */
+#Home.bg-home{
+    background-image: url(image/bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+#Home .text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+#Home .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 44px;
+    color: white;
+    
+}
+#Home .text span{
+    margin-right: 300px;
+    color: white;
+    font-size: 44px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+#Home .text span::after{
+    content: "|";
+    position: absolute;
+    animation: typing 4s infinite;
+}
+@keyframes typing{
+    0%{content: "L|";}
+    2%{content: " La |";}
+    4%{content: " Lar |";}
+    6%{content: " Larr |";}
+    8%{content: " Larry |";}
+    10%{content: "  Larry D |";}
+    12%{content: "  Larry Da  |";}
+    14%{content: "  Larry Dan |";}
+    16%{content: "  Larry Dani |";}
+    18%{content: "  Larry Danie |";}
+    20%{content: "  Larry Daniel |";}
+    22%{content: "  Larry Daniels |";}
+    24%{content:"  Larry Daniels |";}
+    26%{content:"  Larry Daniel |";}
+    28%{content:"  Larry Danie |";}
+    30%{content:"  Larry Dani |";}
+    32%{content:"  Larry Dan |";}
+    34%{content:"  Larry Da |";}
+    36%{content:"  Larry D |";}
+    38%{content: " Larry |";}
+    40%{content: " Larr |";}
+    42%{content: " Lar |";}
+    44%{content: " La |";}
+    46%{content: " L |";}
+    48%{content: " D |";}
+    50%{content: " De |";}
+    52%{content: " Dev |";}
+    54%{content: " Deve |";}
+    56%{content: " Devel |";}
+    58%{content: " Develo |";}
+    60%{content: " Develop |";}
+    62%{content: " Develope |";}
+    64%{content: " Developer |";}
+    66%{content: " Develope |";}
+    68%{content: " Develop |";}
+    70%{content: " Develo |";}
+    72%{content: " Devel |";}
+    74%{content: " Deve |";}
+    76%{content: " Dev |";}
+    78%{content: " De |";}
+    79%{content: " D |";}
+    81%{content: " D |";}
+    82%{content: " De |";}
+    85%{content: " Des |";}
+    86%{content: " Desi |";}
+    87%{content: " Desig |";}
+    88%{content: " Design |";}
+    90%{content: " Designe |";}
+    92%{content: " Designer |";}
+    90%{content: " Designe |";}
+    92%{content: " Design |";}
+    94%{content: " Desig |";}
+    95%{content: " Desi |";}
+    97%{content: " Des |";}
+    98%{content: " De |";}
+    100%{content: "D |";}
+}
+.home-icon{
+    width: 40px;
+    height: 40px;
+}
+/* start navebar */
+
+#navbar-example2 .active{
+    position: relative;
+}
+#navbar-example2 .active::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.navbar-brand{
+    all: unset;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+
+/* start about me */
+
+.about-fonts h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.about-fonts p{
+    font-family: 'Poppins', sans-serif;
+    color: #748182;
+}
+.about-fonts p span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.progress{
+    height: 30px;
+    border-radius: 3px;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-but{
+    background-color: black;
+    color: white;
+    transition:0.5s all;
+}
+.about-but:hover{
+background-color: white;
+color: black;
+}
+.btn-custom{
+    background-color: white;
+    color: black;
+    transition: 0.5s all;
+}
+.btn-custom:hover{
+    background-color: black;
+    color: white;
+}
+/* end about me */
+/* start Services */
+.bg-Services{
+    background-color: #f7f7f7;
+}
+.bg-befor h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.bg-befor h3{
+    position: relative;
+    z-index: 55;
+    
+}
+.bg-befor h3::after{
+    content: "";
+    width: 200px;
+    height: 40px;
+    z-index: -1;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-image: url(image/dots.png);
+    
+}
+.Services-icon{
+    width: 70px;
+    height: 70px;
+}
+
+.Services-title h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+.Services-title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #748182;
+}
+.Services-hover .Services-icon{
+    background-color: #f4f4f4;
+    transition: 0.5s all;
+}
+.Services-hover:hover .Services-icon{
+    background-color: black;
+    color: white;
+}
+.about-img img{
+    position: relative;
+    padding: 0 0 0 30px;
+}
+.about-layer .about-img::after{
+    content: "";
+    width: 27%;
+    height: 65%;
+    top: 130%;
+    right: 65%;
+    z-index: -1;
+    position: absolute;
+    background-image: url(image/dots.png);
+} 
+.progress{
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3) inset;
+}
+
+/* .about-layer{
+  background-image: url(image/dots.png);
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+
+
+
+/* END SERVICE */
+/* START portofolio */
+
+.Portfolio-layer{
+background-color: rgba(255, 255, 255, .95);
+position: absolute;
+top: 5%;
+opacity: 0;
+overflow: hidden;
+transition: 0.5s all;
+}
+.card:hover .Portfolio-layer{
+    opacity: 1;
+    top: 0;
+}
+.Portfolio-icon{
+    width: 30px;
+    height: 30px;
+} 
+.Portfolio-title h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Portfolio-title h3{
+    position: relative;
+    
+    
+}
+.Portfolio-title h3::after{
+    content: "";
+    width: 200px;
+    height: 40px;
+    bottom: 35px;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-image: url(image/dots.png);
+}  
+.Portfolio-icon{
+    background-color: black;
+}
+.Portfolio-icon a{
+    color: white;
+}
+.Portfolio-icon:hover{
+    background-color: white;
+    
+}
+.Portfolio-icon:hover a{
+    color: black;
+}
+#portofolio .nav-pills .nav-link {
+background-color: white;
+color: black;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+border: none !important;
+}
+#portofolio .nav-pills .nav-link.active{
+    position: relative;
+}
+#portofolio .nav-pills .nav-link.active::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+/* end portofolio */
+/* start Clients */
+.bg-Clients{
+    background-color: #f7f7f7;
+}
+.carousel-item span{
+    color: #748182;
+}
+.Clients-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Clients-text h3{
+    position: relative;  
+    z-index: 55;
+}
+.Clients-text h3::after{
+    content: "";
+    
+    width: 300px;
+    height: 40px;
+    z-index: -1;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-image: url(image/dots.png);
+}  
+.carousel-item img{
+    width: 100px;
+}
+#Clients .carousel-indicators [data-bs-target]{
+all: unset;
+width: 10px;
+height: 10px;
+background-color: #d6d6d6;
+border-radius: 100%;
+margin:0 5px;
+transition: 0.2s all;
+}
+#Clients .carousel-indicators [data-bs-target]:hover{
+    background-color: #748182;
+}
+#Clients .carousel-indicators [data-bs-target].active{
+    background-color: #748182;
+}
+
+/* end clients */
+/* start work */
+#work .inner h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800; 
+}
+#work .inner p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+}
+/* end work */
+/* start our team */
+.our-team{
+    background-color: #f7f7f7;
+}
+.team-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.team-text h3{
+    position: relative;
+    z-index: 55;
+}
+.team-text h3::after{
+    content: "";
+    width: 220px;
+    height: 40px;
+    bottom: 35px;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%);
+    position: absolute;
+    background-image: url(image/dots.png);
+}
+.team-icon{
+width: 40px;
+height: 40px;
+}
+
+.our-icon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .9);
+    opacity: 0;
+    transition: 0.5s ;
+    overflow: hidden;
+    transform: scale(0.5);
+}
+.team-work:hover .our-icon {
+    opacity: 1;
+    transform: rotateY(180deg);
+}
+.team-icon{
+    background-color: black;
+}
+.team-icon a{
+    color: white;
+}
+.team-icon:hover{
+    background-color: white;
+    
+}
+.team-icon:hover a{
+    color: black;
+}
+.team-image{
+    transition: 2s all;
+}
+#team .card img{
+    transition: 1s all;
+}
+#team .card:hover img{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+/* end */
+/* star contact */
+.Contact-title h3{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.Contact-title h3::after{
+    content: "";
+    width: 250px;
+    height: 40px;
+    z-index: -1;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-image: url(image/dots.png);
+}
+.Contact-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #f4f4f4;
+    color: black;
+}
+.Contact-input input{
+    background-color: #e9e7e7;
+    outline: none;   
+}
+.Contact-textarea textarea{
+    background-color: #e9e7e7;
+    outline: none;   
+}
+.icon-hover .Contact-icon{
+    transition: 0.5s all;
+}
+.icon-hover:hover .Contact-icon{
+    background-color: black;
+    color: white;
+}
+.Contact-but{
+    width: 150px;
+    background-color: black;
+    color: white;
+    transition: 0.5s all;
+}
+.Contact-but:hover{
+    background-color: white;
+    color: black;
+}
+.cd-headline.rotate-1 .cd-words-wrapper {
+    display: inline-block;
+    perspective: 300px;
+  }
+  
